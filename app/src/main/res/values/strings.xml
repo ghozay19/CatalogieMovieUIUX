@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">My Catalogue Movie UI UX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nama_user">Najib Ghozy Mustofa</string>
+    <string name="email_user">ghozymustofa28@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Ini isi dalemnya -->
+
+    <string name="now_playing">Sedang Diputar</string>
+    <string name="up_coming">Akan Datang</string>
+
+    <string name="input_movie_title"> Masukan Judul Film</string>
+    <string name="search"> Cari </string>
+    <string name="synopsis_movie"> Sinopsis Film</string>
+    <string name="rls_date"> Tanggal Rilis</string>
+    <string name="synopsis"> Sinopsis</string>
+    <string name="rating_film"> 1000 Rating (9.9/10)</string>
+    <string name="rating"> Rating</string>
+    <string name="movie_title"> Judul Film</string>
+    <string name="postermovie"> Poster Film</string>
+    <string name="tgl_rilis">Minggu, 1 Jul, 1999</string>
+    <string name="share">Bagikan</string>
+    <string name="favorite">Favoritkan</string>
+    <string name="home">Beranda</string>
+    <string name="language">Bahasa</string>
+    <string name="favourite">Favourite</string>
+    <string name="pop_deail">999999</string>
+    <string name="popularity">Popularity</string>
+    <string name="detail">Detail</string>
+    <string name="appwidget_text">Contoh</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="not_found">Tidak Ditemukan</string>
+    <string name="textFav">FIlm Favorit</string>
+    <string name="ubah_bahasa">Ubah Bahasa</string>
+    <string name="daily_reminder">Notifikasi Harian</string>
+    <string name="release_today_reminder">Notifikasi Film Baru Harian</string>
+    <string name="notification">Notifikasi</string>
+    <string name="label_alarm_daily_reminder">Selamat Pagi!, Siap untuk menonton film baru ?</string>
+    <string name="alarm_notif">Notifikasi Pengingat Harian</string>
+    <string name="active">acitvated</string>
+    <string name="deactivated">deactivated</string>
+    <string name="alarm_upcoming">Notifikasi Film Baru Harian</string>
+    <string name="key_daily_reminder">Daily Reminder</string>
+    <string name="key_upcoming_reminder">UpComing Reminder</string>
+    <string name="key_setting_locale">Pengaturan Bahasa</string>
+    <string name="label_alarm_release_reminder">Release Movie , please come back soon !</string>
+    <string name="todayrelease">Today %s Release</string>
+
+
+</resources>
