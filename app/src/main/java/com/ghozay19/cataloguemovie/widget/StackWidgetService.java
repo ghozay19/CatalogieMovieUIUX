@@ -1,0 +1,12 @@
+package com.ghozay19.cataloguemovie.widget;
+
+
+import android.content.Intent;
+import android.widget.RemoteViewsService;
+
+public class StackWidgetService extends RemoteViewsService {
+    @Override
+    public RemoteViewsFactory onGetViewFactory(Intent intent) {
+        return (RemoteViewsFactory) new StackRemoteViewsFactory(this.getApplicationContext(), intent);
+    }
+}

@@ -52,7 +52,6 @@ public class DetailActivity extends AppCompatActivity {
 
     String title, overview, poster_backdrop, poster_jpg, release_date;
     private int id_movie;
-    private long id;
     private Boolean isFavourite = false;
     MovieHelper movieHelper;
 
@@ -105,7 +104,7 @@ public class DetailActivity extends AppCompatActivity {
 
 
     private void setData() {
-
+        id_movie = getIntent().getIntExtra("id",0);
         title = getIntent().getStringExtra("title");
         overview = getIntent().getStringExtra("overview");
         poster_backdrop = getIntent().getStringExtra("backdrop_path");

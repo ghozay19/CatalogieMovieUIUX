@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity
 //            }
         if (id == R.id.action_settings) {
             if (item.getItemId() == R.id.action_settings) {
-                Intent intent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
+                Intent intent = new Intent(this, SettingActivity.class);
                 startActivity(intent);
             }
 
