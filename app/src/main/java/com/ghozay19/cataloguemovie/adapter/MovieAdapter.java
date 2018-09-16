@@ -69,9 +69,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, DetailActivity.class);
-
-//TODO tambahin id
-
+                intent.putExtra("id", resultMovie.getId());
                 intent.putExtra("title", resultMovie.getTitle());
                 intent.putExtra("overview", resultMovie.getOverview());
                 intent.putExtra("poster_path", resultMovie.getPosterPath());

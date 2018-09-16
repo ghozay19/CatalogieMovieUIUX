@@ -40,7 +40,7 @@
     <string name="textFav">FIlm Favorit</string>
     <string name="ubah_bahasa">Ubah Bahasa</string>
     <string name="daily_reminder">Notifikasi Harian</string>
-    <string name="release_today_reminder">Notifikasi Film Baru Harian</string>
+    <string name="release_today_reminder">Notifikasi Hari ini %s rilis </string>
     <string name="notification">Notifikasi</string>
     <string name="label_alarm_daily_reminder">Selamat Pagi!, Siap untuk menonton film baru ?</string>
     <string name="alarm_notif">Notifikasi Pengingat Harian</string>

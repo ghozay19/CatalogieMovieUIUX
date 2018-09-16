@@ -64,8 +64,7 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.View
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(activity, DetailActivity.class);
-                //TODO tambahin id
-
+                intent.putExtra("id", movieitem.getId());
                 intent.putExtra("title", movieitem.getMov_title());
                 intent.putExtra("overview", movieitem.getMov_synopsis());
                 intent.putExtra("poster_path", movieitem.getMov_poster());

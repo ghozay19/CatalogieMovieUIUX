@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Favourite Movie</string>
+    <string name="movie_title">title</string>
+    <string name="synopsis">overview</string>
+    <string name="rls_date">releae date</string>
+</resources>
