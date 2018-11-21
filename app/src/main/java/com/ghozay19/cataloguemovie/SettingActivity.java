@@ -44,7 +44,7 @@ public class SettingActivity extends AppCompatActivity {
     }
 
 
-    public static class MyPreferenceFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
+    public static class MyPreferenceFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
 
 
         ArrayList<ResultMovie> listMovie;
@@ -65,7 +65,6 @@ public class SettingActivity extends AppCompatActivity {
 
             findPreference(dailyReminder).setOnPreferenceChangeListener(this);
             findPreference(upComingReminder).setOnPreferenceChangeListener(this);
-            findPreference(settingLocale).setOnPreferenceChangeListener(this);
 
         }
 
@@ -133,17 +132,6 @@ public class SettingActivity extends AppCompatActivity {
 
         }
 
-        @Override
-        public boolean onPreferenceClick(Preference preference) {
-            String key = preference.getKey();
 
-            if (key.equals(settingLocale)) {
-                Intent intent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
-                startActivity(intent);
-                return true;
-            }
-
-            return false;
-        }
     }
 }

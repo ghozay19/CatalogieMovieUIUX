@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
     ActionBarDrawerToggle toggle;
 
     CircleImageView profileCircleImageView;
-    String profileImageUrl = "https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/23130954_2274587745900817_8452213617686584341_n.jpg?_nc_cat=0&oh=716ee2f90d3be323829a8cf21bf3d19a&oe=5BE61966";
+    String profileImageUrl = "https://www.dicoding.com/images/small/avatar/20180826204655c7bdcbbc35a29526031d9284b1aa2ca2.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,6 +153,10 @@ public class MainActivity extends AppCompatActivity
             fragment = new FavouritFragment();
             fragment.setArguments(bundle);
 
+        }else if(id == R.id.nav_language){
+            title = "Catalogue Movie ";
+            Intent intent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
+            startActivity(intent);
         }
 
         /*

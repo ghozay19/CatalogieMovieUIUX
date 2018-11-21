@@ -16,13 +16,13 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Setting">
+    <!--<PreferenceCategory android:title="Setting">-->
 
-        <Preference
-            android:key="@string/key_setting_locale"
-            android:summary="Change Language"
-            android:title="Setting Language" />
+        <!--<Preference-->
+            <!--android:key="@string/key_setting_locale"-->
+            <!--android:summary="Change Language"-->
+            <!--android:title="Setting Language" />-->
 
-    </PreferenceCategory>
+    <!--</PreferenceCategory>-->
 
 </PreferenceScreen>
